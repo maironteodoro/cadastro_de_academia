@@ -48,7 +48,7 @@ namespace StrongFit
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Personal}/{action=Index}/{id?}");
             });     
             SeedData.EnsurePopulated(app);
         }
