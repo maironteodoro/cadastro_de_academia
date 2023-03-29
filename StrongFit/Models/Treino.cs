@@ -7,6 +7,6 @@
         public DateTime Data { get; set; }
         public DateTime Hora { get; set; }
         public Aluno? aluno { get; set; }
-        public ICollection<ExercicioTreino> exercicioTreino { get; set; }
+        public ICollection<ExercicioTreino>? exercicioTreino { get; set; }
     }
 }
