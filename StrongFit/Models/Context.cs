@@ -11,5 +11,9 @@ namespace StrongFit.Models
         }
         public DbSet<Personal> Personals { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<Exercicio> Exercicios { get; set; }
+        public DbSet<Treino> Treinos { get; set; }
+        public DbSet<ExercicioTreino> ExercicioTreinos { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
     }
 }

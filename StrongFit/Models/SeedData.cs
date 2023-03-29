@@ -29,7 +29,17 @@ namespace StrongFit.Models
                       Observacoes = "sem observação",
                       PersonalID = idGerado
                   });
-                
+
+                context.Categorias.Add(new Categoria { Nome = "Peitoral" });
+
+                context.Exercicios.AddRange(
+                    new Exercicio { Nome = "Supino Reto", CategoriaID = 1, Descricao = "3 de 8" });
+
+                context.Treinos.AddRange(
+                    new Treino { AlunoID = 1, Data = Convert.ToDateTime("27/03/2023"), Hora = Convert.ToDateTime("14:00:00") });
+
+                context.ExercicioTreinos.AddRange(
+                    new ExercicioTreino { TreinoID = 1, ExercicioID = 1 });
                 context.SaveChanges();
             }
         }
