@@ -11,5 +11,6 @@
         public string? Observacoes { get; set; }
         public int? PersonalID { get; set; }
         public Personal? personal { get; set; }
+        public ICollection<Treino>? Treinos { get; set; }
     }
 }

@@ -18,7 +18,7 @@ namespace StrongFit.Models
                 // Depois do SaveChanges, se sua coluna for Identity, você deve ter o Id assim:
                 var idPersonalID = personal.PersonalID;
 
-                string date = DateTime.Now.ToString("24/06/2001");
+                string date = DateTime.Now.Date.ToString("24/06/2001");
 
                 context.Alunos.AddRange(
                   new Aluno
