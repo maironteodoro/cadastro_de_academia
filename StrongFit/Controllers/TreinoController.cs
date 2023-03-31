@@ -33,13 +33,20 @@ namespace StrongFit.Controllers
         }
         public IActionResult Details(int id)
         {
-            var treino = context.Treinos.Include(a => a.aluno).First(t => t.TreinoID == id);
-            return View(treino);
-        }
-        public IActionResult Edit(int id)
-        {
-            var treino = context.Treinos.Find(id);
-            ViewBag.AlunoID = new SelectList(context.Alunos.OrderBy(a => a.Nome), "AlunoID", "Nome");
+            var exerciciosTreino = context.ExercicioTreinos.Where(et => et.TreinoID == id).ToList();
+            var treino = context.Treinos.Include(t => t.aluno).FirstOrDefault(t => t.TreinoID == id);
+
+            if (treino == null)
+            {
+                return NotFound();
+            }
+
+            var exercicioIds = exerciciosTreino.Select(et => et.ExercicioID).ToList();
+            var exercicios = context.Exercicios.Include(e => e.Categoria)
+                .Where(e => exercicioIds.Contains(e.ExercicioID)).ToList();
+
+            ViewBag.Exercicios = exercicios;
+
             return View(treino);
         }
 

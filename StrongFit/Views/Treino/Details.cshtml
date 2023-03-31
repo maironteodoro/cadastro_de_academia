@@ -28,6 +28,17 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.aluno.Nome)
         </dd>
+        <dd class = "col-sm-10">
+            @foreach (var exercicio in ViewBag.Exercicios)
+            {
+                <div>
+                    <h4>@exercicio.Nome</h4>
+                    <p>Categoria: @exercicio.Categoria.Nome</p>
+                    <p>Descrição: @exercicio.Descricao</p>
+                </div>
+            }
+        </dd>
+
     </dl>
 </div>
 <div>
