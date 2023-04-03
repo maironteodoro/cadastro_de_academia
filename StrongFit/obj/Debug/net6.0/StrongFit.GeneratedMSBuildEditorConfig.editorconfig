@@ -5,140 +5,141 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StrongFit
 build_property.RootNamespace = StrongFit
-build_property.ProjectDir = D:\5° periodo\StrongFit\StrongFit\
+build_property.ProjectDir = C:\Users\davib\OneDrive\Área de Trabalho\StrongFit\StrongFit\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\5° periodo\StrongFit\StrongFit
+build_property.MSBuildProjectDirectory = C:\Users\davib\OneDrive\Área de Trabalho\StrongFit\StrongFit
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Aluno/Create.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Aluno/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Aluno/Delete.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Aluno/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Aluno/Details.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Aluno/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Aluno/Edit.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Aluno/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Aluno/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Aluno/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Categoria/Create.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Categoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Categoria/Delete.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Categoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Categoria/Details.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Categoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Categoria/Edit.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Categoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Categoria/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Exercicio/Create.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Exercicio/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Exercicio/Delete.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Exercicio/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Exercicio/Details.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Exercicio/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Exercicio/Edit.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Exercicio/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Exercicio/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Exercicio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Home/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Home/Privacy.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Personal/Create.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Personal/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Personal/Delete.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Personal/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Personal/Details.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Personal/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Personal/Edit.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Personal/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Personal/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Personal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Shared/Error.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Treino/Create.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Treino/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Treino/Delete.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Treino/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Treino/Details.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Treino/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Treino/Edit.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Treino/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Treino/Index.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Treino/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/_ViewImports.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/_ViewStart.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5° periodo/StrongFit/StrongFit/Views/Shared/_Layout.cshtml]
+[C:/Users/davib/OneDrive/Área de Trabalho/StrongFit/StrongFit/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7s1u8u3zru

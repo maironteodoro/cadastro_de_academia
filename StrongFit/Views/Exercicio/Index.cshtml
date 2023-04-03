@@ -1,17 +1,14 @@
 ﻿@model IEnumerable<StrongFit.Models.Exercicio>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Exercicio"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 style="text-align:center">Exercicio</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
-        <tr>
+        <tr bgcolor=#00BFFF>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -26,7 +23,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr bgcolor=#F5DEB3>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
@@ -37,9 +34,10 @@
                 @Html.DisplayFor(modelItem => item.Categoria.Nome)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ExercicioID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ExercicioID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ExercicioID">Delete</a>
+                    <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Create" style="text-decoration:none">Inserir</a></button>
+                    <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Edit" asp-route-id="@item.ExercicioID" style="text-decoration:none">Editar</a> </button>
+                    <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Details" asp-route-id="@item.ExercicioID" style="text-decoration:none">Detalhes</a> </button>
+                    <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Delete" asp-route-id="@item.ExercicioID" style="text-decoration:none">Deletar</a> </button>
             </td>
         </tr>
 }

@@ -49,6 +49,12 @@ namespace StrongFit.Controllers
 
             return View(treino);
         }
+        public IActionResult Edit(int id)
+        {
+            var treino = context.Treinos.Find(id);
+            ViewBag.TreinoID = new SelectList(context.Treinos.OrderBy(f => f.TreinoID), "TreinoID");
+            return View(treino);
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]

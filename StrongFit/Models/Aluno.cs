@@ -4,7 +4,7 @@
     {
         public int AlunoID { get; set; }    
         public string? Nome { get; set; }
-        public DateTime? Data_Nascimento { get; set; }
+        public DateTime Data_Nascimento { get; set; }
         public string? E_Mail { get; set; } 
         public string? Instagram { get; set; }
         public string? Telefone { get; set; }

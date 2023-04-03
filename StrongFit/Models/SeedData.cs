@@ -50,8 +50,6 @@ namespace StrongFit.Models
                 context.ExercicioTreinos.AddRange(
                     new ExercicioTreino { TreinoID = idTreinoID, ExercicioID = idExercicioID });
                 context.SaveChanges();
-
-
             }
         }
     }
