@@ -1,9 +1,17 @@
 ﻿@model StrongFit.Models.Treino
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Detalhes"] = "Details";
 }
-
+<style>
+       .exercicio {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 5px;
+        margin-bottom: 10px;
+        max-width: 190px;
+    }
+</style>
 <h1>Details</h1>
 
 <div>
@@ -28,11 +36,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.aluno.Nome)
         </dd>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-10";>
             @foreach (var exercicio in ViewBag.Exercicios)
             {
-                <div>
-                    <h4>@exercicio.Nome</h4>
+                <div class="exercicio" >
+                    <h4 >@exercicio.Nome</h4>
                     <p>Categoria: @exercicio.Categoria.Nome</p>
                     <p>Descrição: @exercicio.Descricao</p>
                 </div>

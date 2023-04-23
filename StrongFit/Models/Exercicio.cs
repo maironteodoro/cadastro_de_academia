@@ -7,6 +7,6 @@
         public int CategoriaID { get; set; }// mudar para classe categoria
         public string? Descricao { get; set; }
         public Categoria? Categoria { get; set; }
-        public ICollection<ExercicioTreino>? exercicioTreino { get; set; }
+        public ICollection<ExercicioTreino>? ExercicioTreino { get; set; }
     }
 }

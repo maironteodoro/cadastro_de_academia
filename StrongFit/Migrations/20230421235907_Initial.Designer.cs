@@ -12,8 +12,8 @@ using StrongFit.Models;
 namespace StrongFit.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230329001726_initial")]
-    partial class initial
+    [Migration("20230421235907_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,7 @@ namespace StrongFit.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AlunoID"));
 
-                    b.Property<DateTime?>("Data_Nascimento")
+                    b.Property<DateTime>("Data_Nascimento")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("E_Mail")
@@ -197,7 +197,7 @@ namespace StrongFit.Migrations
                         .IsRequired();
 
                     b.HasOne("StrongFit.Models.Treino", "treino")
-                        .WithMany("exercicioTreino")
+                        .WithMany("ExercicioTreino")
                         .HasForeignKey("TreinoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -210,12 +210,17 @@ namespace StrongFit.Migrations
             modelBuilder.Entity("StrongFit.Models.Treino", b =>
                 {
                     b.HasOne("StrongFit.Models.Aluno", "aluno")
-                        .WithMany()
+                        .WithMany("Treinos")
                         .HasForeignKey("AlunoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("aluno");
+                });
+
+            modelBuilder.Entity("StrongFit.Models.Aluno", b =>
+                {
+                    b.Navigation("Treinos");
                 });
 
             modelBuilder.Entity("StrongFit.Models.Categoria", b =>
@@ -235,7 +240,7 @@ namespace StrongFit.Migrations
 
             modelBuilder.Entity("StrongFit.Models.Treino", b =>
                 {
-                    b.Navigation("exercicioTreino");
+                    b.Navigation("ExercicioTreino");
                 });
 #pragma warning restore 612, 618
         }

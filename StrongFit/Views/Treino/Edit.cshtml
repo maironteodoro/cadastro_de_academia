@@ -1,7 +1,7 @@
 ﻿@model StrongFit.Models.Treino
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Treino";
 }
 
 <h1>Edit</h1>
@@ -29,9 +29,42 @@
                 <span asp-validation-for="Hora" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input id="Editar" type="submit" value="Alterar" class="btn btn-primary" />
             </div>
         </form>
+         <div class="form-group">
+                <label class="control-label">Exercícios Disponíveis:</label>
+                <ul>
+                   @foreach (var exercicioTreino in ViewBag.Exercicios)
+                    {
+                        <li>
+                            @exercicioTreino.Nome
+                            <form method="post" action="@Url.Action("AdicionarExercicio","Treino")">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="ExercicioTreino.ExercicioID" value="@exercicioTreino.ExercicioID" />
+                                <input type="hidden" name="ExercicioTreino.TreinoID" value="@Model.TreinoID" />
+                                <button id="Adicionar" type="submit" class="btn btn-primary">Adicionar</button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Exercícios Selecionados:</label>
+                <ul>
+                    @foreach (var exercicioTreino in ViewBag.ExercicioTreino)
+                    {
+                        <li>
+                            @exercicioTreino.NomeExercicio
+                            <form method="post" action="@Url.Action("RemoverExercicio","Treino")">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="exercicioTreinoId" value="@exercicioTreino.ExercicioTreinoID" />
+                                <button id="Remover" type="submit" class="btn btn-default">Remover</button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
     </div>
 </div>
 

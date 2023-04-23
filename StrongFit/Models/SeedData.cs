@@ -33,7 +33,11 @@ namespace StrongFit.Models
                       PersonalID = idPersonalID
                   });
 
-                context.Categorias.Add(new Categoria { Nome = "Peitoral" });
+                context.Categorias.Add(new Categoria { Nome = "Peito" });
+                context.Categorias.Add(new Categoria { Nome = "Ombro" });
+                context.Categorias.Add(new Categoria { Nome = "Perna" });
+                context.Categorias.Add(new Categoria { Nome = "Biceps" });
+                context.Categorias.Add(new Categoria { Nome = "Triceps" });
 
                 var exercicio = new Exercicio { Nome = "Supino Reto", CategoriaID = 1, Descricao = "3 de 8" };
                 context.Exercicios.AddRange(exercicio);
