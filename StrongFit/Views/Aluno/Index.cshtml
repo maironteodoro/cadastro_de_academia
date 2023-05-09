@@ -11,7 +11,9 @@
 </nav>
 
 <h1 style="text-align:center">Aluno</h1>
-
+    <div>
+        <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Create" style="text-decoration:none">Inserir</a></button>
+    </div>
 <table class="table">
     <thead>
         <tr bgcolor=#00BFFF>
@@ -64,7 +66,6 @@
                 @Html.DisplayFor(modelItem => item.personal.Nome)
             </td>
             <td>
-                    <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Create" style="text-decoration:none">Inserir</a></button>
                     <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Edit" asp-route-id="@item.AlunoID" style="text-decoration:none">Editar</a> </button>
                     <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Details" asp-route-id="@item.AlunoID" style="text-decoration:none">Detalhes</a> </button>
                     <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Delete" asp-route-id="@item.AlunoID" style="text-decoration:none">Deletar</a> </button>

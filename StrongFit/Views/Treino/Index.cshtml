@@ -1,4 +1,5 @@
-﻿        @model IEnumerable<StrongFit.Models.Treino>
+﻿
+@model IEnumerable<StrongFit.Models.Treino>
 
     @{
         ViewData["Treino"] = "Index";
@@ -10,7 +11,9 @@
     <a style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: black; border: none; font-size: 10px;" href="/aluno">Aluno</a>
 </nav>
     <h1 style="text-align:center">Treino</h1>
-
+            <div>
+                <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 15px;"> <a asp-action="Create" style="text-decoration:none">Inserir</a></button>
+            </div>
     <table class="table">
         <thead>
             <tr bgcolor=#00BFFF>
@@ -25,9 +28,7 @@
                 </th>
                 <th></th>
             </tr>
-            <div>
-                <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Create" style="text-decoration:none">Inserir</a></button>
-            </div>
+
         </thead>
         <tbody>
             @foreach (var item in Model) {
@@ -47,6 +48,8 @@
                                 <button style="background: #B0E0E6; border-radius: 2px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 10px;"> <a asp-action="Delete" asp-route-id="@item.TreinoID" style="text-decoration:none">Deletar</a> </button>
                         </td>
                     </tr>
-    }
+            }
+             
         </tbody>
+
     </table>

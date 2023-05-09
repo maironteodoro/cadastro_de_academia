@@ -37,7 +37,7 @@ namespace StrongFit.Controllers
                 return View(treino);
             }
             ViewBag.AlunoID = new SelectList(context.Alunos.OrderBy(a => a.Nome), "AlunoID", "Nome", treino.AlunoID);
-            return View("Index");
+            return RedirectToAction("Index");
         }
         public IActionResult Details(int id)
         {
